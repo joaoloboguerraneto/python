@@ -24,8 +24,8 @@ jobs:
 
     - name: Build and push Docker image
       run: |
-        docker build -t YOUR_DOCKER_HUB_USERNAME/fastapi:latest .
-        docker push YOUR_DOCKER_HUB_USERNAME/fastapi:latest
+        docker build -t your_docker_hub_username/fastapi:latest .
+        docker push your_docker_hub_username/fastapi:latest
 
   deploy:
     runs-on: ubuntu-latest
